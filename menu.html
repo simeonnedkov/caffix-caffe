@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню - Caffix Cafe Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Caffix</a>
+            <nav class="desktop-nav">
+                <a href="index.html">Начало</a>
+                <a href="menu.html" class="active">Меню</a>
+                <a href="about.html">За нас</a>
+                <a href="contact.html">Контакти</a>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="mobile-nav" id="mobile-nav">
+            <a href="index.html">Начало</a>
+            <a href="menu.html" class="active">Меню</a>
+            <a href="about.html">За нас</a>
+            <a href="contact.html">Контакти</a>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <section class="menu-section">
+            <div class="container">
+                <h1 class="section-title">Нашето Меню</h1>
+                <div class="menu-grid">
+                    <div class="menu-category">
+                        <h2>Кафе</h2>
+                        <ul>
+                            <li><span>Еспресо</span><span>3.50 лв.</span></li>
+                            <li><span>Двойно Еспресо</span><span>5.00 лв.</span></li>
+                            <li><span>Капучино</span><span>4.50 лв.</span></li>
+                            <li><span>Лате</span><span>5.00 лв.</span></li>
+                            <li><span>Флет Уайт</span><span>5.50 лв.</span></li>
+                            <li><span>Американо</span><span>4.00 лв.</span></li>
+                        </ul>
+                    </div>
+                    <div class="menu-category">
+                        <h2>Сладки изкушения</h2>
+                        <ul>
+                            <li><span>Кроасан с масло</span><span>3.00 лв.</span></li>
+                            <li><span>Шоколадов мъфин</span><span>4.00 лв.</span></li>
+                            <li><span>Чийзкейк с боровинки</span><span>6.50 лв.</span></li>
+                            <li><span>Брауни с орехи</span><span>5.50 лв.</span></li>
+                        </ul>
+                    </div>
+                    <div class="menu-category full-width">
+                        <h2>Пресни напитки</h2>
+                        <ul>
+                            <li><span>Фреш Портокал</span><span>6.00 лв.</span></li>
+                            <li><span>Фреш Грейпфрут</span><span>6.00 лв.</span></li>
+                            <li><span>Домашна Лимонада</span><span>5.00 лв.</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="container">
+                <h2 class="gallery-title">Атмосфера и изкушения</h2>
+                <div class="menu-gallery-grid">
+                    <img src="Images/cafe.jpg" alt="Чаша ароматно кафе">
+                    <img src="Images/croasan.jpg" alt="Апетитен сладкиш">
+                    <img src="Images/pizza.jpg" alt="Уютният интериор на кафенето">
+                    <img src="Images/sandvich.jpg" alt="Лате арт">
+                    <img src="Images/sladko.png" alt="Лате арт">
+                    <img src="Images/momiche.jpg" alt="Лате арт">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Caffix Cafe Bar</h3>
+                    <p>Вашият оазис на спокойствието и ароматното кафе в града.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Контакти</h3>
+                    <ul>
+                        <li>ул. „Христо Белчев“ 29, София</li>
+                        <li>contact@caffix.bg</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Работно време</h3>
+                    <ul>
+                        <li>Понеделник - Петък: 08:00 - 20:00</li>
+                        <li>Събота - Неделя: 09:00 - 21:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Caffix Cafe Bar. Всички права запазени.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
